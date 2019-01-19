@@ -34,7 +34,7 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void robotInit() {
-    ultra = new UltrasonicSensor();
+    // ultra = new UltrasonicSensor();
     oi = new OI();
         
     //m_chooser.setDefaultOption("Default Auto", new ExampleCommand());
